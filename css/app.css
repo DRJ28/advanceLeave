@@ -1,0 +1,15 @@
+.container{
+	padding-top: 15px;
+}
+.tab-outer{
+	width: 110%;
+	border: 1px solid #ddd;
+}
+div.tab-outer div{
+	width: 15%;
+	display: inline-block;
+}
+::selection {
+    color: green;
+    background: aquamarine;
+}
