@@ -2,14 +2,21 @@
 	padding-top: 15px;
 }
 .tab-outer{
-	width: 110%;
-	border: 1px solid #ddd;
+	width: 100%;/*
+	border: 1px solid #ddd;*/
 }
 div.tab-outer div{
-	width: 15%;
+	width: 13.28%;
+	text-align: center;
+	border: 1px solid;
 	display: inline-block;
 }
-::selection {
-    color: green;
-    background: aquamarine;
+div.tab-outer input{
+	width: 50%;
+}
+div.disable-day{
+	background: #bec5be;
+}
+div.disable-day input{
+	visibility: hidden;
 }
